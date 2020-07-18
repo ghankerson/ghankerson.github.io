@@ -1,6 +1,8 @@
 const ghpages = require('gh-pages');
 
 ghpages.publish('out', {
-  branch: 'master',
-  repo: 'https://github.com/ghankerson/booknotes.git'
-}, () => {});
+  branch: 'gh-pages',
+  repo: 'https://github.com/ghankerson/ghankerson.github.io.git'
+}, () => {
+  console.log('Deployed!');
+});
