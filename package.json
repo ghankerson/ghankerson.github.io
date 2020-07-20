@@ -9,8 +9,13 @@
     "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin master"
   },
   "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "10.0.28",
+    "@emotion/styled": "10.0.27",
     "@mdx-js/loader": "^1.6.11",
+    "@mdx-js/react": "^1.6.6",
     "@next/mdx": "^9.4.4",
+    "emotion-theming": "^10.0.27",
     "next": "latest",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
