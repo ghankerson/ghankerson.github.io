@@ -1,0 +1,38 @@
+{
+  "devFiles": [],
+  "lowPriorityFiles": [
+    "static/mAbcAKVKu1O2YjZ-F4X85/_buildManifest.js",
+    "static/mAbcAKVKu1O2YjZ-F4X85/_ssgManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/runtime/main-8fef43ead1a53bd9e446.js"
+    ],
+    "/_app": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/chunks/6aa143e8503a18b88de839ad47c7558db45a8889.113f3806a5116aa31721.js",
+      "static/runtime/main-8fef43ead1a53bd9e446.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/runtime/main-8fef43ead1a53bd9e446.js"
+    ],
+    "/_polyfills": [
+      "static/runtime/polyfills-f1a72475392243fcf9b5.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/runtime/main-8fef43ead1a53bd9e446.js"
+    ],
+    "/johnbetts": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/runtime/main-8fef43ead1a53bd9e446.js"
+    ]
+  }
+}
