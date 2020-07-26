@@ -6,7 +6,11 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin"
+    "touch": "touch out/.nojekyll",
+    "addfiles": "git add .",
+    "commit": "git commit -m \"Deploy to Github pages\"",
+    "subtree": "git subtree push --prefix out origin master",
+    "deploy": "yarn build && yarn export && yarn touch && yarn addfiles && yarn commit && yarn subtree"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.14",
