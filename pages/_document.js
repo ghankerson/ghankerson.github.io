@@ -13,7 +13,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@200;300;500&display=swap" rel="stylesheet" /> 
+          <link href="https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,300;0,500;0,700;1,200&display=swap" rel="stylesheet" /> 
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <body>

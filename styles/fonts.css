@@ -7,6 +7,10 @@ h1, h2, h3 {
   font-weight: 500;
 }
 
+.sidebar h2, .sidebar h3 {
+  font-weight: 700;
+}
+
 body {
   font-family: 'Taviraj', serif;
   font-weight: 300;
