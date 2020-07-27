@@ -1,0 +1,22 @@
+.navigation {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  list-style-type: none;
+}
+
+.navigation li a {
+  border-bottom: 4px solid #C9813A;
+  background: #117D1D;
+  color: #ddd;
+  display: block;
+  padding-left: 2em;
+}
+
+.navigation li a:hover {
+  border-bottom: 4px solid #117D1D;
+  background: #C9813A;
+  text-decoration: none;
+}

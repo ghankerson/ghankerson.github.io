@@ -1,5 +1,7 @@
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import HeadingLink from '../components/HeadingLink'
+import Nav from '../components/Nav'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -11,16 +13,19 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@200;500&display=swap" rel="stylesheet" /> 
+          <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@200;300;500&display=swap" rel="stylesheet" /> 
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <body>
         <section className="flex-container">
-          <header className="flex-item sidebar">
-            <h2>Booknotes Blog</h2>
-          </header>
+          <nav className="sidebar"> 
+            <HeadingLink level="h2" text="Booknotes Blog" classnames="flex-item" />
+            <Nav />
+          </nav>
           <div className="flex-item main-column">
-            <Main />
+            <div className="inner">
+              <Main />
+            </div>
           </div>
         </section>
         <NextScript />
