@@ -1,0 +1,41 @@
+body {
+  background: #fff;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item {
+  display: flex;
+  flex-grow: 1;
+  padding: 0 2em 1em 2em;
+}
+
+.sidebar {
+  background: #5526C9;
+}
+
+.main-column {
+  background: #fff;
+}
+
+
+@media screen and ( min-width: 639px ) { 
+  .flex-container {
+    flex-direction: row;
+  }
+  .sidebar {
+    max-width: 300px;
+  }
+  .main-column {
+    width: 70%;
+    min-height: 800px;
+  }
+
+  .inner {
+    max-width: 55%;
+  }
+}
