@@ -14,7 +14,7 @@ const HeadingLink = ({ level, classnames, text }) => {
       <Tag>
         <Link href="/">
           <a>
-	    {text}
+            {text}
           </a>
         </Link>
       </Tag>
