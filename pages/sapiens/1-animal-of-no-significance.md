@@ -1,3 +1,7 @@
+import HtmlHeader from '../../components/HtmlHeader'
+
+<HtmlHeader title="Notes on Sapiens: An Animal of No Significance" />
+
 # An Animal of No Significance
 
 Homo sapiens appear about 70,000 years ago and develop culture. The

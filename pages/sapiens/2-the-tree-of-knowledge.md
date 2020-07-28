@@ -1,3 +1,7 @@
+import HtmlHeader from '../../components/HtmlHeader'
+
+<HtmlHeader title="Notes on Sapiens: The Tree of Knowledge" />
+
 # The Tree of Knowledge
 
 From around 70,000 years ago to about 30,000 years ago Sapiens started
