@@ -6,8 +6,7 @@
 
 .main-column  h2 {
   color: #1F0E4A; 
-  border-bottom: 2px solid #12C925;
-}
+  border-bottom: 2px solid #12C925; }
 
 .main-column h3 {
   color: #7D7300;
@@ -50,4 +49,11 @@ a:hover {
 }
 
 .sidebar h2 a:hover {
+}
+
+blockquote {
+  border-left: 2px solid #1F0E4A;
+  color: #C9813A;
+  font-size: 1em;
+  padding-left: 2em;
 }
