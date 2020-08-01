@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import styles from './styles/PrevNext.module.css'
 
 interface PrevNextProps {
   parent: string,
@@ -10,9 +11,9 @@ interface PrevNextProps {
 
 const PrevNext = ( { parent, prev, current, next } ) => {
   return (
-    <nav className="prev_next">
-      <h2 className="parent">{parent}</h2>
-      <ul className="prev_next">
+    <nav className={styles.prev_next}>
+      <h2 className={styles.parent}>{parent}</h2>
+      <ul className={styles.list}>
         {prev && (
           <li>
             <h3>Previous</h3>

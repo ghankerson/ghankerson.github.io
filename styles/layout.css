@@ -23,7 +23,7 @@ body {
 }
 
 
-@media screen and ( min-width: 639px ) { 
+@media screen and ( min-width: 799px ) { 
   .flex-container {
     flex-direction: row;
   }
