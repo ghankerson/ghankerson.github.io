@@ -24,18 +24,7 @@ body {
 
 
 @media screen and ( min-width: 799px ) { 
-  .flex-container {
-    flex-direction: row;
-  }
-  .sidebar {
-    max-width: 300px;
-  }
-  .main-column {
-    width: 70%;
-    min-height: 800px;
-  }
-
   .inner {
-    max-width: 60%;
+    max-width: 40em;
   }
 }

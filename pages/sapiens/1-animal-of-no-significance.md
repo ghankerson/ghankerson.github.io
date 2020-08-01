@@ -1,6 +1,10 @@
 import HtmlHeader from '../../components/HtmlHeader'
+import Breadcrumb from '../../components/Breadcrumb'
+import PrevNext from '../../components/PrevNext'
 
 <HtmlHeader title="Notes on Sapiens: An Animal of No Significance" />
+<Breadcrumb parent={{name: "Sapiens: A Brief History of Humankind", href:
+"/sapiens"}} />
 
 # An Animal of No Significance
 
@@ -121,3 +125,8 @@ the point where they could not produce offspring together.
 Other human species started to vanish between 12,000 and 50,000 years ago.
 
 The most likely answer to why Sapiens were successful is language.
+
+
+<PrevNext parent="Sapiens: A Brief History of Humankind" current="An
+Animal of No Significance" next={{ name: "The Tree of Knowledge", href:
+"/sapiens/2-the-tree-of-knowledge"}} />

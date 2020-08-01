@@ -19,8 +19,8 @@ class MyDocument extends Document {
         <body>
           <section className='flex-container'>
             <nav className='sidebar'>
-              <HeadingLink level='h2' text='Booknotes Blog' classnames='flex-item' />
               <Nav />
+              <HeadingLink level='h2' text='Booknotes Blog' classnames='flex-item' />
             </nav>
             <div className='flex-item main-column'>
               <div className='inner'>

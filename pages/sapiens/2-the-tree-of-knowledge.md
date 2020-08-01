@@ -1,6 +1,10 @@
 import HtmlHeader from '../../components/HtmlHeader'
+import Breadcrumb from '../../components/Breadcrumb'
+import PrevNext from '../../components/PrevNext'
 
 <HtmlHeader title="Notes on Sapiens: The Tree of Knowledge" />
+<Breadcrumb parent={{name: "Sapiens: A Brief History of Humankind", href:
+"/sapiens"}} />
 
 # The Tree of Knowledge
 
@@ -65,3 +69,7 @@ exists as a story that enables 200,000 employees to work cooperatively.
 This kind of fiction or social construct is not a lie. We all believe in
 these fictions which exist to us along side the physical world. They have
 become more powerful than the physical world itself.
+
+<PrevNext parent="Sapiens: A Brief History of Humankind" current="The Tree
+of Knowledge" prev={{ name: "An Animal of No Significance", href:
+"/sapiens/1-animal-of-no-significance"}} />

@@ -1,0 +1,26 @@
+.attribution {
+  background: #C9813A;
+  border-radius: 0.5em;
+  margin: 1em 0;
+  display: flex;
+  align-items: flex-start;
+  align-content: space-evenly;
+  flex-direction: column;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+}
+
+.inner p {
+  font-size: 1em;
+}
+
+
+@media screen and ( min-width: 899px ) { 
+  .attribution {
+    flex-direction: row;
+  }
+}
