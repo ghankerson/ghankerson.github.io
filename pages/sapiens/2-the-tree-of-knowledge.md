@@ -3,8 +3,7 @@ import Breadcrumb from '../../components/Breadcrumb'
 import PrevNext from '../../components/PrevNext'
 
 <HtmlHeader title="Notes on Sapiens: The Tree of Knowledge" />
-<Breadcrumb parent={{name: "Sapiens: A Brief History of Humankind", href:
-"/sapiens"}} />
+<Breadcrumb parent={{name: "Sapiens: A Brief History of Humankind", href: "/sapiens"}} />
 
 # The Tree of Knowledge
 

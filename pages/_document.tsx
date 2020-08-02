@@ -18,8 +18,8 @@ class MyDocument extends Document {
         </Head>
         <body>
           <section className='flex-container'>
+            <Nav />
             <nav className='sidebar'>
-              <Nav />
               <HeadingLink level='h2' text='Booknotes Blog' classnames='flex-item' />
             </nav>
             <div className='flex-item main-column'>

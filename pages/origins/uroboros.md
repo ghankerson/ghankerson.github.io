@@ -1,6 +1,9 @@
 import HtmlHeader from '../../components/HtmlHeader'
+import Breadcrumb from '../../components/Breadcrumb'
+import PrevNext from '../../components/PrevNext'
 
 <HtmlHeader title="Notes on The Origins and History of Consciousness: The Creation Myth and the Uroboros " />
+<Breadcrumb parent={{name: "The Origins and History of Consciousness", href: "/origins"}} />
 
 # The Creation Myth and the Uroboros
 
@@ -667,3 +670,7 @@ This is all needed for the development of the individual.
 * The round is this symbol of the beginning and the end. When the more
   developed ego clings to the round however the uroboros dominates over
   the ego we reach the stage of the Great Mother. 
+
+<PrevNext parent="The Origins and History of Consciousness" current="The
+Uroboros" prev={{ name: "Introduction", href: "/origins/intro"}} next={{
+name: "The Great Mother", href: "/origins/the-great-mother"}} />

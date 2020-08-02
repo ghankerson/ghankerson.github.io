@@ -41,14 +41,11 @@ a:hover {
 }
 
 .sidebar h2 {
-  margin-bottom: 0;
+  margin: 0.4em 0 0 1em;
 }
 
 .sidebar h2 a {
   color: #ddd;
-}
-
-.sidebar h2 a:hover {
 }
 
 blockquote {

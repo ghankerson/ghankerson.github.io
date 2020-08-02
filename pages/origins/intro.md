@@ -1,8 +1,11 @@
 import Link from 'next/link'
 import HtmlHeader from '../../components/HtmlHeader'
+import Breadcrumb from '../../components/Breadcrumb'
+import PrevNext from '../../components/PrevNext'
 
 <HtmlHeader title="Notes on The Origins and History of Consciousness: Introduction" />
 
+<Breadcrumb parent={{name: "The Origins and History of Consciousness", href: "/origins"}} />
 
 # Introduction
 
@@ -233,3 +236,7 @@ rigid personality of the sick-souled modern man."
 The development of consciousness from the unconscious in myth is the focus of the
 first half of the book while the second half focuses on the internalization of
 these myths into the individual psyche.
+
+<PrevNext parent="The Origins and History of Consciousness"
+current="Introduction" next={{ name: "The Uroboros", href:
+"/origins/uroboros"}} />

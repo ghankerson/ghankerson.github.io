@@ -1,7 +1,9 @@
 import HtmlHeader from '../../components/HtmlHeader'
+import Breadcrumb from '../../components/Breadcrumb'
+import PrevNext from '../../components/PrevNext'
 
 <HtmlHeader title="Notes on The Origins and History of Consciousness: The Great Mother" />
-
+<Breadcrumb parent={{name: "The Origins and History of Consciousness", href: "/origins"}} />
 
 # The Ego Under the Dominance of the Uroboros
 
@@ -49,8 +51,7 @@ import HtmlHeader from '../../components/HtmlHeader'
   cosmos.
 
 * For this reason fear is a normal phenomenon for a child. It is
-  eventually outgrown but also provides an incentive for for growth. The
-  ability to articulate fear helps overcome it so it is wrong to seek to
+  eventually outgrown but also provides an incentive for for growth. The ability to articulate fear helps overcome it so it is wrong to seek to
   get rid of fear in this way.
 
 * Pleasure and pain are still somewhat combined as opposites are not yet
@@ -87,3 +88,5 @@ import HtmlHeader from '../../components/HtmlHeader'
 * In this stage the divine mother and the helpless child are emphasized.
 
 
+<PrevNext parent="The Origins and History of Consciousness" current="The Great
+Mother" prev={{ name: "The Uroboros", href: "/origins/uroboros"}} />
