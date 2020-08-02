@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './styles/attribution.module.css'
 
-const attribution = () => {
+const Attribution = () => {
   return (
     <section className={styles.attribution}>
       <img className={styles.bookImage} src='/images/books/enemies.jpg' alt='Podcast Art for Enemies: from War to Wisdom' style={{ width: '200px' }} />
@@ -14,4 +14,4 @@ const attribution = () => {
   )
 }
 
-export default attribution
+export default Attribution
