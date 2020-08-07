@@ -55,6 +55,12 @@ const Nav = () => {
               </li>
             </ul>
           </li>
+          <li />
+          <li>
+            <Link href='/cleverelse'>
+              <a>An interpretation of the fairy take Clever Else</a>
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

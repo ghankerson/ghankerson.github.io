@@ -10,6 +10,7 @@
 
 .main-column h3 {
   color: #7D7300;
+  font-weight: 300;
   margin-bottom: 0;
 }
 
@@ -37,7 +38,6 @@ a:hover {
 
 .main-column a {
   color: #117D1D;
-  font-weight: bold;
 }
 
 .sidebar h2 {
