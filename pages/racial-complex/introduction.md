@@ -27,17 +27,18 @@ On the first page of the book she pulls out the only quote of Jung&rsquo;s
 on this American complex form his 1930 essay, "The Complications of
 American Psychology": 
 
->Just as the colored man lives in your cities and even within your
+> Just as the colored man lives in your cities and even within your
 houses, so also he live under your skin, subconsciously. Naturally, it
 works both ways. Just as every Jew has a Christ complex, every Negro has
 a white complex and every American a Negro complex.
 
 This quote is both extremely problematic and extremely true. It is
 problematic in that it assumes Americans are white and blacks are not
-Americans by extentsion. It is true in that isn't that where we still are
+Americans by extension. It is true in that isn't that where we still are
 in America in 2020? Blacks have shorter life spans, much less wealth and
 a often a much harder time voting in America in 2020 just to name a few
-inequities.
+inequities. Attempts to address these inequities are always met with
+a tremendous amount of political and cultural blowback. 
 
 Dr. Brewster goes on to note that the racial complex has not been
 addressed in the literature of Jungian psychology with only a three
