@@ -57,9 +57,16 @@ const Nav = () => {
           </li>
           <li />
           <li>
-            <Link href='/cleverelse'>
-              <a>An interpretation of the fairy take Clever Else</a>
+            <Link href='/tales'>
+              <a>Fairy Tales</a>
             </Link>
+            <ul>
+              <li>
+                <Link href='/cleverelse'>
+                  <a>An interpretation of the tale Clever Else</a>
+                </Link>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>

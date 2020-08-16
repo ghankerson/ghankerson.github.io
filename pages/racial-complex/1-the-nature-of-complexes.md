@@ -1,10 +1,20 @@
 import Link from 'next/link'
-import HtmlHeader from '../../components/HtmlHeader'
+
 import Breadcrumb from '../../components/Breadcrumb'
+
+import Definition from '../../components/Definition'
+
+import HtmlHeader from '../../components/HtmlHeader'
+
 import PrevNext from '../../components/PrevNext'
+
+import ego from '../../definitions/ego.json'
+
+import complex from '../../definitions/complex.json'
 
 <HtmlHeader title="Notes on The Racial Complex: A Jungian Perspective on Culture and Race: The Nature of Complexes" />
 <Breadcrumb parent={{name: "The Racial Complex: A Jungian Perspective on Culture and Race", href: "/racial-complex"}} />
+
 
 # 1. The Nature of Complexes
 
@@ -12,16 +22,19 @@ import PrevNext from '../../components/PrevNext'
 ego conscious thinking, and our collective human behavioral
 interactions.*
 
-Dr. Brewster start the chapter by locating the position of the complex in
-Jung's model of the psyche. In doing so she gives us a nice, even poetic
-review of Jung's model. 
+Dr. Brewster starts the chapter by locating the position of the <Definition label={complex.label} text={complex.text}
+source={complex.source} /> in Jung's model of the psyche. In doing so she
+gives us a nice, even poetic review of Jung's model. 
+
 
 <Link href="/johnbetts"><a>See notes on Jungian Analyst primer on Jung's
 model if you want a primer.</a></Link>
 
-She starts by noting consciousness - the ego - lives inside the
-unconscious - just as the earth (ego) is pulled by the gravitation of the
-sun (the unconscious). 
+She starts by noting consciousness - the <Definition label={ego.label}
+text={ego.text} source={ego.source} />
+- lives inside the unconscious
+- just as the earth (ego) is pulled by the gravitation of the sun (the
+unconscious). 
 
 The ego, like gravity, keeps us from getting overwhelmed by the
 unconscious (sun) by giving us a basic understanding and of our place in

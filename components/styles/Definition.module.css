@@ -1,0 +1,37 @@
+.definiton {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.term a {
+  color: #1F0E4A;
+  font-weight: 400;
+  border-bottom: 1px solid #1F0E4A;
+}
+
+.description {
+  display: none;
+}
+
+.view {
+  background: #C9813A;
+  border-radius: 1em;
+  color: #1F0E4A;
+  display: block;
+  font-size: 0.9em;
+  left: 0;
+  padding: 1em;
+  position: absolute;
+  width: 300px;
+  z-index: 10;
+}
+
+.view a {
+  color: #1F0E4A;
+  font-weight: 400;
+  border-bottom: 2px solid #1F0E4A;
+  position: absolute;
+  right: 1em;
+  bottom: 0.5em;
+}

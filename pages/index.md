@@ -24,3 +24,6 @@ a podcast of my own, but for now, it's mostly notes.
 ### Notes on Podcasts
 - <Link href="/enemies"><a>ENEMIES: From War to Wisdom podcast</a></Link>
 - <Link href="/johnbetts"><a>Jung's Model of the Psyche from Jungian Analyst John Betts</a></Link>
+
+### Notes on Fairy Tales
+- <Link href="/cleverelse"><a>Clever Else (Brothers Grimm)</a></Link>
