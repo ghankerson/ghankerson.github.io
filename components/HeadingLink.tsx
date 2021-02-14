@@ -1,12 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 
-interface HeadingLinkProps {
-  level: string,
-  classnames: string,
-  text: string
-}
-
 const HeadingLink = ({ level, classnames, text }) => {
   const Tag = level
   return (

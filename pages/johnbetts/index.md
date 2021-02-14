@@ -103,7 +103,7 @@ A complex when triggered impacts the ego’s functioning. Jung - “Everyone
 knows people have complexes. What is more important is complexes have
 people.” Here he is talking about archetypes.
 
-### The Third Layer is the Collective Unconscious
+<h3 id="collectiveunconscious">The Third Layer is the Collective Unconscious</h3>
 We cannot experience the collective unconscious directly like we
 experience complexes as it is deeply unconscious.
 
@@ -117,12 +117,14 @@ conscious is also self-evident.
 
 Humans apart from being tool users, are also symbol makers and
 story-tellers. We create symbols daily and are surrounded by a symbol
-laden world. Advertising symbols, objects in our world are symbols.
+laden world. Advertising symbols is one example, objects in our world are symbols.
 Specifically, they are symbolic images or archetypal images. Structures in
-the collective unconscious are archetypes. “Archetypes are the inherited
+the collective unconscious are archetypes. 
+
+<p id="archetypes">“<strong>Archetypes</strong> are the inherited
 part of the psyche. Structuring patterns of psychological performance
 linked to instinct. A hypothetical entity irrepresentable in itself and
-evident only through its manifestations.  
+evident only through its manifestations. </p>
 
 An archetype is a symbol producing structure. 
 

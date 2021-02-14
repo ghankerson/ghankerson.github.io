@@ -2,10 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import styles from './styles/Breadcrumb.module.css'
 
-interface BreadcrumbProps {
-  parent: object,
-}
-
 const Breadcrumb = ( { parent } ) => {
   return (
     <ul className={styles.breadcrumb}>

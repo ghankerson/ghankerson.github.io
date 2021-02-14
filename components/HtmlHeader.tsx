@@ -1,10 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 
-interface Props {
-  title: string,
-}
-
 const HtmlHeader = ( { title } ) => {
   const titleText = `The Booknotes Blog | ${title}`
   return (

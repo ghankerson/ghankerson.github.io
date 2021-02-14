@@ -8,7 +8,9 @@ import HtmlHeader from '../components/HtmlHeader'
 This is my booknotes blog where I share notes on books I am reading and
 podcasts I am listening to. This is an intellectual pursuit for me to give
 me an area to focus on outside of my career. You'll find a lot of things
-that are related to Jungian Psychology.
+that are related to Jungian Psychology and racial justice. You'll find
+I am guilty of starting a lot of books and not finishing them. Well, what
+can I say? You are entitled to a full refund.
 
 The reason I take notes is that I learn a lot more when I do. I thought it
 might be useful for someone else on the Internet - perhaps you? Eventually
