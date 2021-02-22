@@ -17,13 +17,13 @@ const Definition = ( { label, text, source } ) => {
   return (
     <dl className={styles.definiton}>
       <dt className={styles.term} >
-        <a role='link' tabIndex={-1} onKeyPress={() => toggler()} onClick={() => toggler()}>{label}</a>
+        <button tabIndex={-1} onKeyPress={() => toggler()} onClick={() => toggler()}>{label}</button>
       </dt>
       <dd className={styles[ToggleClass]}>
         <div>{text} <br /> <br /> </div>
         <div><em>{source}</em></div>
         <div>
-          <a role='link' tabIndex={0} onKeyPress={() => toggler()} onClick={() => toggler()}>Close</a>
+          <button tabIndex={0} onKeyPress={() => toggler()} onClick={() => toggler()}>Close</button>
           <br /> 
         </div>
       </dd>

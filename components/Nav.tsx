@@ -35,6 +35,9 @@ const Nav = () => {
                   <a>The Origins and History of Consciousness <em>by Erich Neumann</em></a>
                 </Link>
               </li>
+              <li>
+                <Link href="/grandmothershands"><a>My Grandmother&rsquo;s Hands: Racialized Trauma and the Pathway to Mending Our Hearts and Bodies <em>by Resmaa Menakem</em>.</a></Link>
+              </li>
             </ul>
           </li>
           <li>
